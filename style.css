@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Varela+Round&display=swap');
+body
+{
+    background-color: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Pangolin', cursive;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+nav ul li 
+{
+    padding: 0 12px;
+}
+nav ul 
+{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height :36px;
+    background-color: black;
+    color:white;
+}
+.brand img
+{
+    
+    width: 30px;
+    padding: 0 8px;
+    
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.container
+{
+    
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 650px;
+    height: 450px;
+    margin:27px auto;
+    border-radius:12px ;
+    padding: 13px;
+    background-image: url('dg.png');
+    
+    background-size: 700px auto;
+    
+    
+     
+
+}
+.bottom
+{
+   
+    position: absolute;
+    height: 80px;
+    width: 10000px;
+    background-color: black;
+    bottom:0;
+    
+    color: aliceblue;
+    flex-direction: column;
+}
+.icons{
+    margin: 0 550px;
+    align-items: center;
+    justify-content: center;
+}
+#progressbar
+{
+    
+    width: 150vh;
+    text-align: center;
+   cursor:pointer ;
+    
+}
+.songitems
+{
+    
+    align-items: center;
+    height: 30px;
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+   margin: 12px 0;
+   justify-content: space-between;
+   border-radius: 30px;
+}
+.songimg
+{
+    margin: 0 23px;
+    width: 45px;
+}
+.songduration
+{
+    padding: 0 23px;
+}
+.songinfo
+{
+    
+    display : flex ;
+    margin-top: -35px;
+    margin-left: 30px;
+    align-items: center;
+}
+.songbottom
+{
+   
+    margin-left: 12px;
+  
+}
+.songinfoimg
+{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
